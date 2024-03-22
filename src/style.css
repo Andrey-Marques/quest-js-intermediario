@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+*{
+    font-family: 'Roboto', sans-serif;
+}
+main{
+    background-image: url(./bg-repeat.jpg);
+    background-repeat: repeat;
+    width: 100vw;
+    height: 100vh;
+    background-size: contain;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+.form{
+    display: flex;
+    padding: 0 50px;
+}
+.conteudo{
+    width: 300px;
+    height: 111px;
+    margin-right: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 340px;
+    height: 378px;
+    color: #ffffff;
+}
+.conteudo h1{
+    margin: 10px 0;
+    
+}
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+    width: 340px;
+    padding: 20px;
+}
+span{
+    display: none;
+}
+.formulario .campos-obrigatorios{
+    align-self: self-start;
+    margin: 10px 0 20px 15px;
+}
+.divs-input{
+    margin-top: 15px;
+    font-size: 10px;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    text-decoration: transparent;
+}
+
+.nome{
+    width: 298px;
+    height: 35px;
+    border-width: 2px;
+    border-radius: 5px;
+    border-color: black;
+    font-size: 15px;
+}
+.email{
+    width: 298px;
+    height: 35px;
+    border-width: 2px;
+    border-radius: 5px;
+    border-color: black;
+    font-size: 15px;
+}
+.telefone{
+    width: 298px;
+    height: 35px;
+    border-width: 2px;
+    border-radius: 5px;
+    border-color: black;
+    font-size: 15px;
+}
+
+.mensagem{
+    border-width: 2px;
+    border-radius: 5px;
+    border-color: black;
+}
+.submit{
+    background-color: #3CCC87;
+    border: none;  
+    width: 298px;
+    height: 35px;
+    margin-bottom: 15px;
+    border-width: 1.5px;
+    border-radius: 5px;
+    border-color: black;
+    font-size: 15px;
+
+}
+.submit:hover{
+    cursor: pointer;
+}
+.invalid {
+    border-color: #ff0000;
+}
+.span-invalid{
+    color: red;
+    display: block;
+}
+.checked{
+    border-color: #3CCC87;
+}
