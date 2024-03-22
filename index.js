@@ -55,7 +55,6 @@ function msgCheck(){
     }
 }
 
-submit.addEventListener('click', nameCheck());
 
 
  
