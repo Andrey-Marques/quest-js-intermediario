@@ -87,6 +87,7 @@ span{
     border-width: 2px;
     border-radius: 5px;
     border-color: black;
+    resize: none;
 }
 .submit{
     background-color: #3CCC87;
